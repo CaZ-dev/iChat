@@ -1,0 +1,13 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.scrollable-div {
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin: 20px;
+    text-align: justify;
+    padding: 20px;
+}
